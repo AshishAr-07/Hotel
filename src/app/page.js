@@ -4,6 +4,7 @@ import Hotellisting from './_components/Hotellisting'
 import AboutUs from './_components/About'
 import Testimonial from './_components/Testimonial'
 import WhyChooseUs from './_components/WhyChooseUs'
+import Icon from './_components/icon'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
    <Hotellisting activepage='home' />
    <WhyChooseUs/>
    <Testimonial/>
+   <Icon/>
    </>
   )
 }

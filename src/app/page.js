@@ -4,7 +4,8 @@ import Hotellisting from './_components/Hotellisting'
 import AboutUs from './_components/About'
 import Testimonial from './_components/Testimonial'
 import WhyChooseUs from './_components/WhyChooseUs'
-import Icon from './_components/icon'
+import Icon from './_components/Icon'
+
 
 export default function page() {
   return (

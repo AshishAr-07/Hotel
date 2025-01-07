@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -35,7 +36,11 @@ const Header = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link href='/'> <div className="flex-shrink-0 flex items-center">
-                        <span className="text-3xl font-bold ">Hotel</span>
+                        <Image
+                            src="/Logo.gif"
+                            alt="Animated Logo"
+                           
+                        />
                     </div></Link>
 
                     {/* Desktop Menu */}
@@ -87,7 +92,7 @@ const Header = () => {
                             href="/hotels"
                             className="block px-3 py-2 text-base font-medium  rounded-md"
                         >
-                        Hotels
+                            Hotels
                         </Link>
                         <Link href="/contact">
                             <button className='bg-orange-500 text-white w-full rounded-lg py-2 text-lg font-medium'>Book Now</button>
